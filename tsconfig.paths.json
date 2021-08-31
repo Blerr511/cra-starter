@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"@config": ["src/config"],
+			"@store": ["src/store"],
+			"@store/*": ["src/store/*"],
+			"@typings/*": ["src/typings/*"],
+			"@utils": ["src/shared/utils"],
+			"@utils/*": ["src/shared/utils/*"],
+			"@components/*": ["src/shared/components/*"],
+			"@hooks": ["src/shared/hooks"],
+			"@hooks/*": ["src/shared/hooks/*"],
+			"@modules/*": ["src/modules/*"],
+			"@router": ["src/router"]
+		}
+	}
+}

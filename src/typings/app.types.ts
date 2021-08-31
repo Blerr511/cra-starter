@@ -8,7 +8,7 @@ export class AppEnv {
 	constructor(public readonly env: string) {}
 
 	isProd() {
-		return this.env == AppMode.prod;
+		return this.env === AppMode.prod;
 	}
 
 	isLocal() {

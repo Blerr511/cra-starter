@@ -1,10 +1,12 @@
 # :fire::rocket::atom_symbol: CRA + React + Redux(@reduxjs/toolkit) + Typescript
 
 A starter for React with Typescript with create-react-app and all static code testing with Eslint and formatting with Prettier.
+Also checkout [Vite :zap:](https://github.com/Blerr511/vite-react-starter) bundler version of this setup.
 
 ## Installation
 
-Clone the repo and run `yarn install`
+- Clone the repo and run `yarn install`
+- run `yarn prepare` to install husky pre-commit
 
 ## Included technologies
 

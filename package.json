@@ -64,5 +64,8 @@
 			"last 1 safari version"
 		]
 	},
-	"homepage": "ss"
+	"lint-staged": {
+		"*.ts": "eslint --cache --fix"
+	},
+	"homepage": "https://github.com/Blerr511/cra-starter"
 }
